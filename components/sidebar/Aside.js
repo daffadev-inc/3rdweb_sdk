@@ -88,7 +88,7 @@ const Aside = ({ collapsed, ina, toggled, handleToggleSidebar }) => {
           }}
         >
           <a
-            href="https://github.com/azouaoui-med/react-pro-sidebar"
+            href="https://github.com/daffadev-inc/3rdweb_sdk"
             target="_blank"
             className={style.sidebar_btn}
             rel="noopener noreferrer"
