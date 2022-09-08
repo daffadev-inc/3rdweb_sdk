@@ -83,6 +83,8 @@ $icon-size: 35px;
     padding: 10px;
         margin: auto;}
     header {
+      position: fixed;
+      width: -webkit-fill-available;
       margin-bottom: 40px;
       border-bottom: 1px solid #efefef;
       padding: 10px 0 0;
@@ -187,6 +189,7 @@ $icon-size: 35px;
       display: flex;
       position: fixed;
       z-index: 999;
+      margin: 5px 0;
     }
 
     &rtl {
@@ -247,7 +250,7 @@ $icon-size: 35px;
 }
 
 .main {
-    margin-top: 0rem;
+    margin-top: 2.8rem;
     .main__container {
         display: grid;
         max-width: 1024px;
@@ -316,4 +319,35 @@ $icon-size: 35px;
             }
         }
     }
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+@include mobile {
+    grid-template-columns: 1fr;}
+
+.listItem {
+    box-shadow: -1px -1px 10px -2px rgb(0 0 0 / 25%), 1px 1px 10px -2px rgb(0 0 0 / 25%), 1px 1px 10px -2px rgb(0 0 0 / 25%), 1px -1px 10px -2px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    overflow: hidden;
+    .image {
+        width: 100% !important;
+        height: 250px !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        }
+    .listItemBody {
+        padding: 0 10px 10px;}
+    }
+}
+
 

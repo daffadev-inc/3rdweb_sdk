@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
-        <Layout setLocale={setLocale} />
+        <Layout setLocale={setLocale} home />
     </IntlProvider>
   );
 }

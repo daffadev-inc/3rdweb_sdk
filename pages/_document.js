@@ -1,7 +1,7 @@
 // pages/_document.js
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
 
-const name = '[Your Name]'
+const name = 'DaffaDev'
 export const siteTitle = 'Next.js Sample Website'
 
 export default class Document extends NextDocument {

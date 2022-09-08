@@ -6,6 +6,8 @@ import { FaHeart, FaAlignLeft } from 'react-icons/fa';
 import style from '../styles/App.module.scss';
 
 const Main = ({
+  home,
+  children,
   collapsed,
   ina,
   handleToggleSidebar,
@@ -13,6 +15,7 @@ const Main = ({
   handleInaChange,
 }) => {
   const intl = useIntl();
+
   return (
     <main>
       <div className={style.btn_toggle} onClick={() => handleToggleSidebar(true)}>
@@ -36,7 +39,7 @@ const Main = ({
         <span> {intl.formatMessage({ id: 'ina' })}</span>
       </div>
       </header>
-        <Banner />
+        <main>{children}</main>
       <footer>
       <div className={style.block}>
         <Switch

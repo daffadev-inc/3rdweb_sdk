@@ -1,5 +1,5 @@
 {
-  "name": "next-javascript-starter",
+  "name": "3rdweb-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,9 @@
   "dependencies": {
     "@thirdweb-dev/react": "^2",
     "@thirdweb-dev/sdk": "^2",
+    "date-fns": "^2.29.2",
     "ethers": "^5.7.0",
+    "gray-matter": "^4.0.3",
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,6 +21,8 @@
     "react-intl": "^6.1.1",
     "react-pro-sidebar": "^0.7.1",
     "react-switch": "^7.0.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
     "sass": "^1.54.8",
     "styled-components": "^5.3.5"
   },
